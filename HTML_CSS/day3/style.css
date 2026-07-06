@@ -1,0 +1,77 @@
+.information {
+    
+    font-family: Arial, sans-serif;
+    color:gray;
+    font-size: 12px;
+    justify-content:space-around;
+}
+.box{
+            position: absolute;
+            top: 3%;
+            right: 5%;
+            border-radius: 50%;}
+      
+body {
+            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 40px;
+            color: #333333;
+        }
+.section-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #111111;
+            margin-bottom: 40px;
+            padding-left: 12px;
+            border-left: 5px solid #111111;
+            line-height: 1.2;
+        }
+
+.section-content {
+            font-size: 14px;
+            font-weight: 400;
+            color: #444444;
+            line-height: 1.7; 
+            word-break: keep-all; 
+        }
+.sub-title {
+    font-size: 15px;
+    color: gray;
+}
+.tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    color: lightsteelblue;
+    background-color: #ffffff;
+    border-radius: 50px; 
+    border: 2px solid #dcdcdc; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05)    
+}
+.my-container:hover:hover .tag:not(:hover) {
+            filter: grayscale(1);
+            opacity: 0.5;
+        }
+.content-title{
+            font-size: 23px;
+            line-height: 1.5;
+            margin-top: 5%;
+            font-style: bold;
+}
+.content{
+    font-size: 18px;
+    color:darkslategray;
+    display: flex;
+    justify-content: space-between;
+    padding:0%;
+}
+.my-form{
+    font-size: 10px;
+}
+.table{
+    font-size: 15px;
+}
